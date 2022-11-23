@@ -4,7 +4,7 @@ function OrderManagement() {
   return (
     <div>   
         <div class="overflow-x-auto relative shadow-md rounded-lg md:w-1/2 md:mx-auto mx-5">
-            <h1  className="text-4xl font-bold text-center my-8 text-nile-blue-900">OrderManagement</h1>
+            <h1  className="text-4xl font-bold text-center my-8 text-nile-blue-900">Order Management</h1>
             <table class="w-full text-sm text-left">
                 <thead class="text-sm uppercase bg-nile-blue-100 ">
                     <tr>
@@ -113,7 +113,7 @@ function OrderManagement() {
                     </tr>
                 </tbody>
                 <div className="flex justify-around items-center mb-10">
-                    <button className="bg-burnt-sienna-400 text-burnt-sienna-700 font-medium py-2 px-4 mx-2 rounded-lg">Create Order</button>
+                    <button className="bg-burnt-sienna-500 text-[white] font-medium py-2 px-4 mx-2 rounded-lg">Create Order</button>
                 </div>
             </table>
         </div>
